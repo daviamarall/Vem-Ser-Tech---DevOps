@@ -50,6 +50,11 @@ touch minha_pasta/arquivo4.txt
 touch minha_pasta/arquivo5.txt
 ```
 
+Exemplo: 
+
+![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/b78f45be-8e27-49d9-8098-d00237793ac0)
+
+
 - Para definir permissões "400" recursivamente (leitura somente para o proprietário), use o seguinte comando:
 
 ```bash
