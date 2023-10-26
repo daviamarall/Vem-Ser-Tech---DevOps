@@ -1,5 +1,11 @@
 **Sistemas Operacionais Linux**
 
+Assuntos que serão abordados:
+
+Gestão de usuários
+Permissionamento
+Configuração de Serviços
+
 **Problema 1:**
 
 Imagine que a Vanessa é uma administradora de sistemas em uma empresa de tecnologia. Ela recebeu a tarefa de criar uma nova conta de usuário para um novo membro da equipe. Vanessa precisa demonstrar seu conhecimento ao explicar o processo para seus colegas de trabalho.
