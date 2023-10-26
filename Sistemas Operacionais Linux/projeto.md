@@ -10,28 +10,32 @@ Imagine que a Vanessa é uma administradora de sistemas em uma empresa de tecnol
 
 step 1. Abra um terminal navegando atraves do sistema ou pelo atalho **ctrl+alt+t**
 ![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/57957e1f-af93-4548-9fb5-6c754a852718)
-![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/876aff48-2ba4-4dd5-84fc-6727c4632f4a)
+![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/33f81cc0-134d-49a7-bfc7-71e60c41ebf3)
+
 
 step 2. Use o comando `sudo adduser` para criar um novo usuário. Substitua "nome_de_usuário" pelo nome que você deseja atribuir ao novo usuário:
    
    ```bash
    sudo adduser nome_de_usuário
    ```
-![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/49e36cbe-9fc3-4e99-be39-3d4c836794b1)
+![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/7bd733fb-12a8-4e39-88c1-a2429a67da7c)
 
 step 3. Pressione Enter e siga as instruções para definir uma senha para o novo usuário.
 
-![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/de36abef-98c3-42e6-889a-df4e6f305755)
+![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/7c0e80f7-d448-4977-8b46-7bdfb2fc4fe5)
 
 step 4. Forneça informações adicionais sobre o novo usuário, como Nome completo, Número da sala, Número de telefone, etc., ou deixe em branco pressionando Enter.
 
-![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/35ed2e50-dbf1-45a6-9f94-50e5bf8685ec)
+![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/013ff272-ac50-403d-aef2-ff7f8d3fa411)
 
 step 5. Confirme se as informações estão corretas, pressionando "Y" para aceitar ou "N" para rejeitar.
 
-![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/a84407c7-03e1-4fd6-b015-14f632409bee)
+![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/6c91029c-2eb1-4062-be2a-a90157172b8b)
 
 step 6. O novo usuário foi criado com sucesso.
+
+![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/15a5191a-1e95-42d2-899c-4d5f3ab60b6e)
+
 
 **Problema 2:**
 
