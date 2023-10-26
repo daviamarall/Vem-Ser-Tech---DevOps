@@ -20,12 +20,15 @@ step 2. Use o comando `sudo adduser` para criar um novo usuário. Substitua "nom
 ![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/49e36cbe-9fc3-4e99-be39-3d4c836794b1)
 
 step 3. Pressione Enter e siga as instruções para definir uma senha para o novo usuário.
+
 ![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/de36abef-98c3-42e6-889a-df4e6f305755)
 
 step 4. Forneça informações adicionais sobre o novo usuário, como Nome completo, Número da sala, Número de telefone, etc., ou deixe em branco pressionando Enter.
+
 ![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/35ed2e50-dbf1-45a6-9f94-50e5bf8685ec)
 
 step 5. Confirme se as informações estão corretas, pressionando "Y" para aceitar ou "N" para rejeitar.
+
 ![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/a84407c7-03e1-4fd6-b015-14f632409bee)
 
 step 6. O novo usuário foi criado com sucesso.
