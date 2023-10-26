@@ -138,11 +138,13 @@ server {
 ```bash
 sudo nginx -t
 ```
+![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/f668e845-2206-4d08-bcf3-45257a0c13fc)
 
 9. Se não houver erros, reinicie o serviço Nginx para aplicar as alterações:
 
 ```bash
 sudo systemctl restart nginx
 ```
+![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/f8df0f9e-1706-4f33-982d-5bcd8be77c2d)
 
 10. Agora, abra um navegador da web e acesse
