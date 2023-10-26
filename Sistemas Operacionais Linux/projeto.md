@@ -99,13 +99,15 @@ sudo systemctl start nginx
 ```bash
 sudo systemctl enable nginx
 ```
+![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/91d5de53-633c-49bd-b5e6-0e9996b41254)
 
 5. Agora, edite o arquivo de configuração padrão do Nginx usando um editor de texto. Vamos usar o nano neste exemplo:
 
 ```bash
 sudo nano /etc/nginx/sites-available/default
 ```
-![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/91d5de53-633c-49bd-b5e6-0e9996b41254)
+![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/16a8873d-ce5f-4156-a683-5d4ef0efa90f)
+
 
 6. No arquivo de configuração, encontre a seção que define a página padrão e substitua o conteúdo pelo texto desejado:
 
@@ -127,6 +129,7 @@ server {
     }
 }
 ```
+![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/016869cb-d6af-46d3-ba43-d655fd9d23ea)
 
 7. Salve as alterações no arquivo de configuração.
 
