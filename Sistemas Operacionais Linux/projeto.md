@@ -2,7 +2,7 @@
 
 Assuntos que serão abordados:
 
-*Gestão de usuários
+*Gestão de usuários*
 
 *Permissionamento
 
