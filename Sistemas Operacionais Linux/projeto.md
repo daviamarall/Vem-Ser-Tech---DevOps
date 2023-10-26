@@ -153,3 +153,7 @@ sudo systemctl restart nginx
 10. Agora, abra um navegador da web e acesse
 
 ![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/e755312d-31e0-45d4-927f-e2aa4ce99c50)
+
+
+
+Link do projeto: https://github.com/daviamarall/Vem-Ser-Tech---DevOps/blob/main/Sistemas%20Operacionais%20Linux/projeto.md
