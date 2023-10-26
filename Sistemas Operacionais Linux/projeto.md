@@ -131,16 +131,13 @@ server {
     index index.html index.htm;
 
     location / {
-        try_files $uri $uri/ =404;
-    }
-
-    # Substitua este bloco com o texto desejado
-    location / {
+        add_header Content-Type "text/html";
         return 200 "ADA + AdaTech + seu_nome = Sucesso!";
     }
 }
 ```
-![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/016869cb-d6af-46d3-ba43-d655fd9d23ea)
+![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/450fe621-728c-4508-97f6-ba86ccc6e225)
+
 
 7. Salve as alterações no arquivo de configuração.
 
