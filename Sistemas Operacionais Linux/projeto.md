@@ -8,31 +8,31 @@ Imagine que a Vanessa é uma administradora de sistemas em uma empresa de tecnol
 
 **Resolução: **
 
-step 1. Abra um terminal navegando atraves do sistema ou pelo atalho **ctrl+alt+t**
+1. Abra um terminal navegando atraves do sistema ou pelo atalho **ctrl+alt+t**
 ![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/57957e1f-af93-4548-9fb5-6c754a852718)
 ![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/33f81cc0-134d-49a7-bfc7-71e60c41ebf3)
 
 
-step 2. Use o comando `sudo adduser` para criar um novo usuário. Substitua "nome_de_usuário" pelo nome que você deseja atribuir ao novo usuário:
+2. Use o comando `sudo adduser` para criar um novo usuário. Substitua "nome_de_usuário" pelo nome que você deseja atribuir ao novo usuário:
    
    ```bash
    sudo adduser nome_de_usuário
    ```
 ![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/7bd733fb-12a8-4e39-88c1-a2429a67da7c)
 
-step 3. Pressione Enter e siga as instruções para definir uma senha para o novo usuário.
+3. Pressione Enter e siga as instruções para definir uma senha para o novo usuário.
 
 ![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/7c0e80f7-d448-4977-8b46-7bdfb2fc4fe5)
 
-step 4. Forneça informações adicionais sobre o novo usuário, como Nome completo, Número da sala, Número de telefone, etc., ou deixe em branco pressionando Enter.
+4. Forneça informações adicionais sobre o novo usuário, como Nome completo, Número da sala, Número de telefone, etc., ou deixe em branco pressionando Enter.
 
 ![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/013ff272-ac50-403d-aef2-ff7f8d3fa411)
 
-step 5. Confirme se as informações estão corretas, pressionando "Y" para aceitar ou "N" para rejeitar.
+5. Confirme se as informações estão corretas, pressionando "Y" para aceitar ou "N" para rejeitar.
 
 ![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/6c91029c-2eb1-4062-be2a-a90157172b8b)
 
-step 6. O novo usuário foi criado com sucesso.
+6. O novo usuário foi criado com sucesso.
 
 ![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/15a5191a-1e95-42d2-899c-4d5f3ab60b6e)
 
@@ -82,30 +82,30 @@ ADA + AdaTech + seu_nome = Sucesso!
 
 **Apenas esse texto deve ser renderizado na página padrão do servidor. Não esqueça de tirar um print e documentar tudo que foi feito até chegar a esse resultado.**
 
-step 1. Abra um terminal.
+1. Abra um terminal.
 
-step 2. Use o seguinte comando para instalar o servidor Nginx:
+2. Use o seguinte comando para instalar o servidor Nginx:
 
 ```bash
 sudo apt-get install nginx
 ```
 ![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/3c44ac20-4c9b-4093-a098-7f96b81f507d)
 
-step 3. Após a instalação, inicie o serviço Nginx com o comando:
+3. Após a instalação, inicie o serviço Nginx com o comando:
 
 ```bash
 sudo systemctl start nginx
 ```
 ![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/b112284f-8832-4d65-942f-7bbd0f49e034)
 
-step 4. Para habilitar o Nginx para iniciar automaticamente com o sistema, use o comando:
+4. Para habilitar o Nginx para iniciar automaticamente com o sistema, use o comando:
 
 ```bash
 sudo systemctl enable nginx
 ```
 ![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/91d5de53-633c-49bd-b5e6-0e9996b41254)
 
-step 5. Agora, edite o arquivo de configuração padrão do Nginx usando um editor de texto. Vamos usar o nano neste exemplo:
+5. Agora, edite o arquivo de configuração padrão do Nginx usando um editor de texto. Vamos usar o nano neste exemplo:
 
 ```bash
 sudo nano /etc/nginx/sites-available/default
@@ -134,7 +134,7 @@ server {
 ```
 ![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/016869cb-d6af-46d3-ba43-d655fd9d23ea)
 
-step 7. Salve as alterações no arquivo de configuração.
+7. Salve as alterações no arquivo de configuração.
 
 step 8. Teste a configuração do Nginx para verificar se não há erros:
 
@@ -143,13 +143,13 @@ sudo nginx -t
 ```
 ![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/f668e845-2206-4d08-bcf3-45257a0c13fc)
 
-step 9. Se não houver erros, reinicie o serviço Nginx para aplicar as alterações:
+9. Se não houver erros, reinicie o serviço Nginx para aplicar as alterações:
 
 ```bash
 sudo systemctl restart nginx
 ```
 ![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/f8df0f9e-1706-4f33-982d-5bcd8be77c2d)
 
-step 10. Agora, abra um navegador da web e acesse
+10. Agora, abra um navegador da web e acesse
 
 ![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/e755312d-31e0-45d4-927f-e2aa4ce99c50)
