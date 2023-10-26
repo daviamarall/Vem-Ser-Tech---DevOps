@@ -60,7 +60,7 @@ Exemplo:
 ```bash
 chmod -R 400 minha_pasta
 ```
-**Exemplo: **
+Exemplo: 
 
 ![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/06b1a444-9a86-4d23-bfd6-5439bc23139a)
 
@@ -85,12 +85,14 @@ ADA + AdaTech + seu_nome = Sucesso!
 ```bash
 sudo apt-get install nginx
 ```
+![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/3c44ac20-4c9b-4093-a098-7f96b81f507d)
 
 3. Após a instalação, inicie o serviço Nginx com o comando:
 
 ```bash
 sudo systemctl start nginx
 ```
+![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/b112284f-8832-4d65-942f-7bbd0f49e034)
 
 4. Para habilitar o Nginx para iniciar automaticamente com o sistema, use o comando:
 
@@ -103,6 +105,7 @@ sudo systemctl enable nginx
 ```bash
 sudo nano /etc/nginx/sites-available/default
 ```
+![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/91d5de53-633c-49bd-b5e6-0e9996b41254)
 
 6. No arquivo de configuração, encontre a seção que define a página padrão e substitua o conteúdo pelo texto desejado:
 
