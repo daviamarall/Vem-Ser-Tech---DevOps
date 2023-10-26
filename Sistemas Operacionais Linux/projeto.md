@@ -148,3 +148,5 @@ sudo systemctl restart nginx
 ![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/f8df0f9e-1706-4f33-982d-5bcd8be77c2d)
 
 10. Agora, abra um navegador da web e acesse
+
+![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/e755312d-31e0-45d4-927f-e2aa4ce99c50)
