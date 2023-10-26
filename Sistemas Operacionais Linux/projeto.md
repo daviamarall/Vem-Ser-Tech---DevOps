@@ -82,38 +82,37 @@ ADA + AdaTech + seu_nome = Sucesso!
 
 **Apenas esse texto deve ser renderizado na página padrão do servidor. Não esqueça de tirar um print e documentar tudo que foi feito até chegar a esse resultado.**
 
-1. Abra um terminal.
+step 1. Abra um terminal.
 
-2. Use o seguinte comando para instalar o servidor Nginx:
+step 2. Use o seguinte comando para instalar o servidor Nginx:
 
 ```bash
 sudo apt-get install nginx
 ```
 ![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/3c44ac20-4c9b-4093-a098-7f96b81f507d)
 
-3. Após a instalação, inicie o serviço Nginx com o comando:
+step 3. Após a instalação, inicie o serviço Nginx com o comando:
 
 ```bash
 sudo systemctl start nginx
 ```
 ![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/b112284f-8832-4d65-942f-7bbd0f49e034)
 
-4. Para habilitar o Nginx para iniciar automaticamente com o sistema, use o comando:
+step 4. Para habilitar o Nginx para iniciar automaticamente com o sistema, use o comando:
 
 ```bash
 sudo systemctl enable nginx
 ```
 ![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/91d5de53-633c-49bd-b5e6-0e9996b41254)
 
-5. Agora, edite o arquivo de configuração padrão do Nginx usando um editor de texto. Vamos usar o nano neste exemplo:
+step 5. Agora, edite o arquivo de configuração padrão do Nginx usando um editor de texto. Vamos usar o nano neste exemplo:
 
 ```bash
 sudo nano /etc/nginx/sites-available/default
 ```
 ![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/16a8873d-ce5f-4156-a683-5d4ef0efa90f)
 
-
-6. No arquivo de configuração, encontre a seção que define a página padrão e substitua o conteúdo pelo texto desejado:
+step 6. No arquivo de configuração, encontre a seção que define a página padrão e substitua o conteúdo pelo texto desejado:
 
 ```plaintext
 server {
@@ -135,22 +134,22 @@ server {
 ```
 ![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/016869cb-d6af-46d3-ba43-d655fd9d23ea)
 
-7. Salve as alterações no arquivo de configuração.
+step 7. Salve as alterações no arquivo de configuração.
 
-8. Teste a configuração do Nginx para verificar se não há erros:
+step 8. Teste a configuração do Nginx para verificar se não há erros:
 
 ```bash
 sudo nginx -t
 ```
 ![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/f668e845-2206-4d08-bcf3-45257a0c13fc)
 
-9. Se não houver erros, reinicie o serviço Nginx para aplicar as alterações:
+step 9. Se não houver erros, reinicie o serviço Nginx para aplicar as alterações:
 
 ```bash
 sudo systemctl restart nginx
 ```
 ![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/f8df0f9e-1706-4f33-982d-5bcd8be77c2d)
 
-10. Agora, abra um navegador da web e acesse
+step 10. Agora, abra um navegador da web e acesse
 
 ![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/e755312d-31e0-45d4-927f-e2aa4ce99c50)
