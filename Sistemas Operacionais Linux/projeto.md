@@ -12,7 +12,7 @@ Imagine que a Vanessa é uma administradora de sistemas em uma empresa de tecnol
 
 **Descreva o processo para criar um novo usuário no Linux, incluindo os comandos e opções utilizadas de forma mais detalhada possível.**
 
-1. Abra um terminal navegando atraves do sistema ou pelo atalho **ctrl+shift+t**
+1. Abra um terminal navegando atraves do sistema ou pelo atalho **ctrl+alt+t**
 ![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/57957e1f-af93-4548-9fb5-6c754a852718)
 
 2. Use o comando `sudo adduser` para criar um novo usuário. Substitua "nome_de_usuário" pelo nome que você deseja atribuir ao novo usuário:
