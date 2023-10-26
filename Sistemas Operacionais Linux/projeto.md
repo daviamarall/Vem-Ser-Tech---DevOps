@@ -60,8 +60,11 @@ Exemplo:
 ```bash
 chmod -R 400 minha_pasta
 ```
+**Exemplo: **
 
-Agora, explique que as permissões de arquivo no Linux são representadas por três grupos de símbolos: `r` (leitura), `w` (escrita) e `x` (execução), e que esses símbolos são atribuídos a três grupos: o proprietário, o grupo e outros. No exemplo, "400" significa que o proprietário tem permissão de leitura (r) e os outros não têm permissão (---) para todos os arquivos e a pasta.
+![image](https://github.com/daviamarall/Vem-Ser-Tech---DevOps/assets/40430859/06b1a444-9a86-4d23-bfd6-5439bc23139a)
+
+No exemplo, "400" significa que o proprietário tem permissão de leitura (r) e os outros não têm permissão (---) para todos os arquivos e a pasta.
 
 **Problema 3:**
 
