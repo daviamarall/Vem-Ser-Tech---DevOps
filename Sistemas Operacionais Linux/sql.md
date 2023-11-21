@@ -92,7 +92,7 @@ JOIN table2 ON table1.column1 = table2.column1;
 `DELETE FROM table WHERE condition;
 `
 
-***Condições WHERE
+### Condições 
 
 **-- Igual: Retorna registros onde o valor da coluna1 é igual a 'valor'.**
 
