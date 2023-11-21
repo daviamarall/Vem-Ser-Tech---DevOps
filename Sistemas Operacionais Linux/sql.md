@@ -48,6 +48,35 @@
 `SELECT DISTINCT column1 FROM table;
 `
 
+**-- Exemplo com MAX: Retorna o valor máximo da coluna2 da tabela.**
+
+`SELECT MAX(column2) AS max_value FROM table;`
+
+**-- Exemplo com MIN: Retorna o valor mínimo da coluna2 da tabela.**
+
+`SELECT MIN(column2) AS min_value FROM table;`
+
+**-- Exemplo com AVG: Retorna a média da coluna2 da tabela.**
+
+`SELECT AVG(column2) AS average_value FROM table;`
+
+**-- Exemplo com SUM: Retorna a soma da coluna2 da tabela.**
+
+`SELECT SUM(column2) AS sum_value FROM table;`
+
+**-- Exemplo com COUNT: Retorna o número de registros na tabela.**
+
+`SELECT COUNT(*) AS record_count FROM table;`
+
+**-- Exemplo com JOIN e Igual: Combina linhas de duas tabelas onde a coluna1 é igual.**
+
+SELECT table1.column1, table1.column2, table2.column2
+FROM table1
+JOIN table2 ON table1.column1 = table2.column1;
+
+
+
+
 **-- INSERT INTO: Insere novas linhas em uma tabela.**
 
 `INSERT INTO table (column1, column2) VALUES (value1, value2);
