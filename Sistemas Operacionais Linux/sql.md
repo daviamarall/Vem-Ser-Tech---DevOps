@@ -74,70 +74,66 @@ SELECT table1.column1, table1.column2, table2.column2
 FROM table1
 JOIN table2 ON table1.column1 = table2.column1;
 
-
-
+### CRUD
 
 **-- INSERT INTO: Insere novas linhas em uma tabela.**
 
-`INSERT INTO table (column1, column2) VALUES (value1, value2);
-`
+`INSERT INTO table (column1, column2) VALUES (value1, value2);`
 
 **-- UPDATE: Atualiza dados existentes em uma tabela.**
 
-`UPDATE table SET column1 = value1 WHERE condition;
-`
+`UPDATE table SET column1 = value1 WHERE condition;`
 
 **-- DELETE FROM: Exclui linhas de uma tabela.**
 
-`DELETE FROM table WHERE condition;
-`
+`DELETE FROM table WHERE condition;`
 
 ### Condições 
 
 **-- Igual: Retorna registros onde o valor da coluna1 é igual a 'valor'.**
 
-SELECT column1, column2 FROM table WHERE column1 = 'valor';
+`SELECT column1, column2 FROM table WHERE column1 = 'valor';`
 
 **-- Diferente: Retorna registros onde o valor da coluna1 é diferente de 'valor'.**
 
-SELECT column1, column2 FROM table WHERE column1 <> 'valor';
+`SELECT column1, column2 FROM table WHERE column1 <> 'valor';`
 
 **-- Maior que: Retorna registros onde o valor da coluna1 é maior que 5.**
 
-SELECT column1, column2 FROM table WHERE column1 > 5;
+`SELECT column1, column2 FROM table WHERE column1 > 5;`
 
 **-- Menor que: Retorna registros onde o valor da coluna1 é menor que 10.**
 
-SELECT column1, column2 FROM table WHERE column1 < 10;
+`SELECT column1, column2 FROM table WHERE column1 < 10;`
 
 **-- Maior ou igual: Retorna registros onde o valor da coluna1 é maior ou igual a 10.**
 
-SELECT column1, column2 FROM table WHERE column1 >= 10;
+`SELECT column1, column2 FROM table WHERE column1 >= 10;`
 
 **-- Menor ou igual: Retorna registros onde o valor da coluna1 é menor ou igual a 20.**
 
-SELECT column1, column2 FROM table WHERE column1 <= 20;
+`SELECT column1, column2 FROM table WHERE column1 <= 20;`
 
 **-- IN: Retorna registros onde o valor da coluna1 está em um conjunto específico.**
 
-SELECT column1, column2 FROM table WHERE column1 IN ('valor1', 'valor2', 'valor3');
+`SELECT column1, column2 FROM table WHERE column1 IN ('valor1', 'valor2', 'valor3');`
 
 **-- NOT IN: Retorna registros onde o valor da coluna1 não está em um conjunto específico.**
 
-SELECT column1, column2 FROM table WHERE column1 NOT IN ('valor1', 'valor2', 'valor3');
+`SELECT column1, column2 FROM table WHERE column1 NOT IN ('valor1', 'valor2', 'valor3');`
 
 **-- LIKE: Retorna registros onde o valor da coluna1 corresponde a um padrão ('prefixo%').**
 
-SELECT column1, column2 FROM table WHERE column1 LIKE 'prefixo%';
+`SELECT column1, column2 FROM table WHERE column1 LIKE 'prefixo%';`
 
 **-- BETWEEN: Retorna registros onde o valor da coluna1 está entre 10 e 20.**
 
-SELECT column1, column2 FROM table WHERE column1 BETWEEN 10 AND 20;
+`SELECT column1, column2 FROM table WHERE column1 BETWEEN 10 AND 20;`
 
 **-- IS NULL: Retorna registros onde o valor da coluna1 é nulo.**
 
-SELECT column1, column2 FROM table WHERE column1 IS NULL;
+`SELECT column1, column2 FROM table WHERE column1 IS NULL;`
 
 **-- IS NOT NULL: Retorna registros onde o valor da coluna1 não é nulo.**
 
-SELECT column1, column2 FROM table WHERE column1 IS NOT NULL;
+`SELECT column1, column2 FROM table WHERE column1 IS NOT NULL;`
