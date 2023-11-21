@@ -39,13 +39,11 @@
 
 `SELECT column1, column2 FROM table1 FULL JOIN table2 ON table1.id = table2.id;`
 
-**-- CROSS JOIN: Retorna o produto cartesiano de ambas as tabelas, ou seja, combina cada linha da tabela à esquerda com cada linha da tabela à direita.
-**
+**-- CROSS JOIN: Retorna o produto cartesiano de ambas as tabelas, ou seja, combina cada linha da tabela à esquerda com cada linha da tabela à direita.**
 
 `SELECT column1, column2 FROM table1 CROSS JOIN table2;`
 
-**-- DISTINCT: Retorna valores distintos de uma coluna.
-**
+**-- DISTINCT: Retorna valores distintos de uma coluna.**
 
 `SELECT DISTINCT column1 FROM table;
 `
