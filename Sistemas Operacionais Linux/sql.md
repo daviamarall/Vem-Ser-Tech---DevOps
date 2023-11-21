@@ -40,16 +40,20 @@
 
 **-- CROSS JOIN: Retorna o produto cartesiano de ambas as tabelas, ou seja, combina cada linha da tabela à esquerda com cada linha da tabela à direita.
 **
+
 `SELECT column1, column2 FROM table1 CROSS JOIN table2;`
 
 **-- DISTINCT: Retorna valores distintos de uma coluna.
 **
+
 `SELECT DISTINCT column1 FROM table;
 `
+
 **-- INSERT INTO: Insere novas linhas em uma tabela.**
 
 `INSERT INTO table (column1, column2) VALUES (value1, value2);
 `
+
 **-- UPDATE: Atualiza dados existentes em uma tabela.**
 
 `UPDATE table SET column1 = value1 WHERE condition;
