@@ -57,6 +57,7 @@
 
 `UPDATE table SET column1 = value1 WHERE condition;
 `
+
 **-- DELETE FROM: Exclui linhas de uma tabela.**
 
 `DELETE FROM table WHERE condition;
