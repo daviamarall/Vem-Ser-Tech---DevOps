@@ -34,6 +34,7 @@
 
 `SELECT column1, column2 FROM table1 RIGHT JOIN table2 ON table1.id = table2.id;
 `
+
 **-- FULL JOIN (ou FULL OUTER JOIN): Retorna todos os registros quando há uma correspondência em uma das tabelas. Os registros não correspondentes nas tabelas à esquerda e à direita conterão valores nulos.**
 
 `SELECT column1, column2 FROM table1 FULL JOIN table2 ON table1.id = table2.id;`
