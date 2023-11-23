@@ -6,9 +6,9 @@ Baseado em todo o conhecimento adquirido durante o módulo, siga as orientaçõe
 
 Assuntos que serão abordados:
 
-Python
-JSON
-Git e GitHub
+* Python
+* JSON
+* Git e GitHub
 
 A documentação de tarefas é crucial para empresas modernas devido à rápida geração e disseminação de informações. Isso garante continuidade operacional, colaboração eficaz e escalabilidade. Além disso, facilita a integração de novos membros da equipe, identificação de melhorias e impulsiona a excelência operacional e a inovação. Documentar o trabalho e soluções encontradas é um compartamento muito valorizado pelas empresa e gestores no geral, é uma importante estratégia para o crescimento da empresa.
 
